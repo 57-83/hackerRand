@@ -1,5 +1,3 @@
-
-
 def skip_animals(animals, skip)
     result = []
     animals.each_with_index do |animal, index|
