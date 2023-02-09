@@ -1,4 +1,3 @@
-
 class Hacker
 end
 class Submission
@@ -22,6 +21,31 @@ def identify_class(obj)
   end
 end
 puts identify_class(Hacker.new)
+
+
+
+
+# def identify_class(obj)
+#   array = ["Hacker", "Submission", "TestCase", "Content"]
+#   case obj
+#   when "Hacker"
+#     puts "It's a Hacker!"
+#   when "Submission"
+#     puts "It's a Submission!"
+#   when "TestCase"
+#     puts "It's a TestCase!"
+#   when "Content"
+#     puts "It's a Content!"
+#   else
+#     puts "It's an unknown model"
+#   end
+# end
+
+# # For the purpose of printing the output in the terminal
+# puts identify_class 
+
+
+
 
 
 
